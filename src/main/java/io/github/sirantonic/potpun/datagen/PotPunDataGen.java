@@ -11,6 +11,5 @@ public class PotPunDataGen implements DataGeneratorEntrypoint {
         pack.addProvider(EnglishLangProvier::new);
         pack.addProvider(RecipeProvider::new);
         pack.addProvider(ModelProvider::new);
-
     }
 }
